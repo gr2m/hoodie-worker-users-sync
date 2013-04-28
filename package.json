@@ -1,0 +1,17 @@
+{
+  "name": "hoodie-worker-users-sync",
+  "version": "0.0.1",
+  "description": "syncs all user data between all users",
+  "author": "Hoodie",
+  "main": "lib/worker.js",
+  "dependencies": {
+    "hoodie-worker": "git://github.com/hoodiehq/hoodie-worker.git"
+  },
+  "devDependencies": {
+      "when": "~1.7",
+      "when-promisify": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
