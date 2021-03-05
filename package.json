@@ -8,10 +8,11 @@
     "hoodie-worker": "git://github.com/hoodiehq/hoodie-worker.git"
   },
   "devDependencies": {
-      "when": "~1.7",
-      "when-promisify": "*"
+    "when": "~1.7",
+    "when-promisify": "*"
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "repository": "github:gr2m/hoodie-worker-users-sync"
 }
